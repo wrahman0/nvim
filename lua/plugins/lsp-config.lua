@@ -16,14 +16,11 @@ return {
 					"cmake",
 					"cssls",
 					"dockerls",
-					"docker_compose_language_service",
 					"dotls",
 					"eslint",
 					"gopls",
 					"html",
-					"java_language_server",
 					"tsserver",
-					"autotools-language-server",
 					"marksman",
 					"pyright",
 					"sqls",
@@ -42,12 +39,10 @@ return {
 			lspconfig.cmake.setup({})
 			lspconfig.cssls.setup({})
 			lspconfig.dockerls.setup({})
-			lspconfig.docker_compose_language_service.setup({})
 			lspconfig.dotls.setup({})
 			lspconfig.eslint.setup({})
 			lspconfig.gopls.setup({})
 			lspconfig.html.setup({})
-			lspconfig.java_language_server.setup({})
 			lspconfig.tsserver.setup({})
 			lspconfig.marksman.setup({})
 			lspconfig.pyright.setup({})
